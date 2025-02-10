@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 7px;
+}
+
+body {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: aliceblue;
+    background-color: #333;
+    text-align: center;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.clearfix{
+    content:"" ;
+    display: block;
+    clear: both;
+}
+header {
+    height: 46rem;
+
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(images/sek.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #daa520;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.5s;
+
+}
+
+.btn:hover {
+    background-color: #daa520;
+    color: #333;
+}
+
+#sec-a {
+    background-color: aliceblue;
+    color: #333;
+    padding: 3.2rem 0;
+}
+
+#sec-b {
+
+    padding: 2rem;
+
+
+}
+
+#sec-b ul {
+    list-style: none;
+}
+
+#sec-b li {
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.col-content {
+    padding: 1.5rem;
+}
+#sec-c{
+    background-color: #fff;
+    color: #333;
+    padding: 5rem;
+}
+#sec-d .box{
+    padding: 5rem;
+}
+#sec-d .box:first-child{
+    background-color: darkslategray;
+}
+
+footer{
+    padding: 4rem;
+    background-color: black;
+
+}
+footer a{
+    color: #daa520;
+}
+
+
+
+@media screen  and (min-width:800px){
+    html{
+        font-size: 9px;
+    }
+}
+@media screen  and (min-width:1200px){
+    html{
+        font-size: 11px;
+    }
+    #sec-b li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    .box{
+        width: 50%;
+        float: left;
+
+    }
+}
